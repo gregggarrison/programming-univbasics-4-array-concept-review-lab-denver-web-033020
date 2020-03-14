@@ -9,11 +9,8 @@ end
 def find_max_value(array)
   count = 0 
   while count < array.length do
-    
+    return array.sort.last
   end
-
-
-
 end
 
 def find_min_value(array)
